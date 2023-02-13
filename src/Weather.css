@@ -1,10 +1,33 @@
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  background-color: rgb(144, 200, 243);
+}
+
 .Weather {
   text-align: left;
-  color: black;
-  margin-top: 68px;
-  margin-left: 400px;
-  margin-right: 400px;
-  max-width: 1200px;
-  border: 1px solid #9a9a9e;
+  color: #666363;
+  padding: 30px;
+  padding-bottom: 10px;
+  margin: 60px auto;
+  max-width: 600px;
+  border: 1px solid #0a0afc;
   border-radius: 6px;
+  background-color: rgb(223, 248, 248);
+}
+
+.Weather h1 {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 80px;
+}
+
+.Weather ul {
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 18px;
+  font-weight: light;
+  line-height: 28px;
+  list-style: none;
 }
