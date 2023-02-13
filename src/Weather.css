@@ -1,0 +1,10 @@
+.Weather {
+  text-align: left;
+  color: black;
+  margin-top: 68px;
+  margin-left: 400px;
+  margin-right: 400px;
+  max-width: 1200px;
+  border: 1px solid #9a9a9e;
+  border-radius: 6px;
+}
