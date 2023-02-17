@@ -29,7 +29,8 @@ body {
 }
 
 .Weather img {
-  margin-right: 10px;
+  margin-right: -4px;
+  position: relative;
 }
 
 .Weather li {
@@ -40,7 +41,7 @@ body {
 }
 
 .Weather .temperature {
-  font-size: 40px;
+  font-size: 45px;
   color: black;
   font-weight: bold;
   vertical-align: middle;
@@ -55,11 +56,13 @@ body {
   font-size: 18px;
   color: black;
   position: relative;
-  top: -6.5px;
-  margin-left: 8px;
+  top: -10.5px;
+  margin-left: 4px;
 }
 
 .Weather .weather-description li {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 8px;
+  margin-top: 18px;
+  padding-top: 8px;
 }
