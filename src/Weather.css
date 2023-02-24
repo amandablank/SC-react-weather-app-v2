@@ -1,6 +1,6 @@
 body {
   font-family: "Merriweather Sans", sans-serif;
-  background-color: rgb(253, 251, 235);
+  background-color: rgb(173, 224, 247);
 }
 
 .Weather {
@@ -8,9 +8,9 @@ body {
   color: #666363;
   padding: 30px;
   padding-bottom: 20px;
-  border: 2px solid #c1c5ec;
+  border: 2px solid #70a080;
   border-radius: 6px;
-  background-color: hsl(169, 88%, 90%);
+  background-color: hsl(170, 77%, 88%);
 }
 
 .Weather div .col-6 {

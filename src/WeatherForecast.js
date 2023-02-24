@@ -3,7 +3,7 @@ import "./WeatherForecast.css";
 
 export default function WeatherForecast(props) {
   return (
-    <div className="WeatherForecast">
+    <div className="WeatherForecast mt-5">
       <div className="row">
         <div className="col">
           <div className="WeatherForecast-day">Thu</div>
