@@ -7,6 +7,7 @@ import { RotatingLines } from "react-loader-spinner";
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({});
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
