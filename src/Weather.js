@@ -39,6 +39,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
+        <p className="Title">Weather Forecast</p>
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-8">
