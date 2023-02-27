@@ -15,15 +15,16 @@ export default function App() {
             rel="noopener noreferrer"
           >
             Amanda Cristina Blankenburg
-          </a>{" "}
-          and is open-sourced on{" "}
+          </a>
+          , is open-sourced on{" "}
           <a
             href="https://github.com/amandablank/weather-app-react-v2"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            GitHub{" "}
           </a>
+          and hosted on <a href="https://www.netlify.com/">Netlify</a>
         </footer>
       </div>
     </div>
