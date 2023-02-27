@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./WeatherForecast.css";
 import axios from "axios";
 import WeatherForecastDay from "./WeatherForecastDay";
+import { RotatingLines } from "react-loader-spinner";
 
 export default function WeatherForecast(props) {
   let [loaded, setLoaded] = useState(false);
@@ -46,6 +47,16 @@ export default function WeatherForecast(props) {
   } else {
     loadCity();
 
-    return null;
+    return (
+      <div className="text-center">
+        <RotatingLines
+          strokeColor="lightblue"
+          strokeWidth="5"
+          animationDuration="0.75"
+          width="130"
+          visible={true}
+        />
+      </div>
+    );
   }
 }
