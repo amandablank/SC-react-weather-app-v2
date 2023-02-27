@@ -12,7 +12,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/amanda-cristina-blankenburg-81b410213/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Amanda Cristina Blankenburg
           </a>{" "}
@@ -20,7 +20,7 @@ export default function App() {
           <a
             href="https://github.com/amandablank/weather-app-react-v2"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>

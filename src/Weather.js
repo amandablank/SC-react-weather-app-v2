@@ -3,6 +3,7 @@ import axios from "axios";
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 import { RotatingLines } from "react-loader-spinner";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -11,6 +12,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coordinates,
       city: response.data.city,
       date: new Date(response.data.time * 1000),
       description: response.data.condition.description,

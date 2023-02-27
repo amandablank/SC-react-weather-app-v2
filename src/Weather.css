@@ -1,6 +1,8 @@
 body {
   font-family: "Merriweather Sans", sans-serif;
   background-color: rgb(173, 224, 247);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .Weather {
@@ -77,4 +79,12 @@ body {
   line-height: 8px;
   margin-top: 18px;
   padding-top: 8px;
+}
+
+th {
+  text-align: -webkit-match-parent;
+}
+
+.table-responsive {
+  -webkit-overflow-scrolling: touch;
 }

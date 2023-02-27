@@ -28,7 +28,7 @@ export default function WeatherInfo(props) {
       </div>
       <hr />
       <div className="mt-3 mb-4">
-        <p>Next 5 days Forecast:</p>
+        <p>Today and upcoming days Forecast:</p>
         <WeatherForecast data={props.data} />
       </div>
     </div>
